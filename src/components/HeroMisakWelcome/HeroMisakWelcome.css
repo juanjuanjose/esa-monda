@@ -1,0 +1,218 @@
+.hero-misak {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 7% 7rem;
+    background: linear-gradient(135deg, #e2e2e2 0%, #e6d5b8 100%);
+    margin-bottom: -50px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.hero-misak::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    z-index: -1;
+}
+
+.hero-misak-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-misak-content h1 {
+    font-size: 3.1rem;
+    line-height: 1.3em;
+    margin: 50px 0 30px;
+    font-family: var(--font-heading), sans-serif;
+    font-weight: var(--font-heading-weight);
+    font-style: var(--font-heading-style);
+    color: #4a3933;
+    text-align: center;
+}
+
+.hero-misak-content h2 {
+    font-size: 2rem;
+    color: #8b4513;
+    line-height: 1.7em;
+    margin: 0;
+    font-family: var(--font-heading), sans-serif;
+    font-weight: var(--font-heading-weight);
+    font-style: var(--font-heading-style);
+}
+
+.hero-misak-content p {
+    font-size: var(--font-size-body-base);
+    line-height: 1.5em;
+    font-family: var(--font-body), Georgia;
+    color: #5a4a42;
+    margin: 0 0 30px;
+}
+
+.hero-misak-features {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hero-misak-features span {
+    text-transform: uppercase;
+    font-family: var(--font-body);
+    font-weight: var(--font-body-weight);
+    font-size: var(--font-size-body-small);
+    letter-spacing: 0.05em;
+    text-align: center;
+    height: 44px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+    border-radius: 8px;
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    border: none;
+    opacity: 1;
+    transition: background-color 0.25s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.hero-misak-features span:hover {
+    background-color: rgba(58, 9, 44, 0.85);
+    color: var(--color-button-text);
+    transform: scale(1.05);
+}
+
+.hero-misak-image {
+    flex: 1;
+    max-width: 45%;
+}
+
+.hero-misak-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.hero-misak-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8b4513;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-misak-content button:hover {
+    background-color: #7a3b10;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+    .hero-misak {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 7% 5rem;
+        background: linear-gradient(135deg, #e2e2e2 0%, #e6d5b8 100%);
+        margin-bottom: -50px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-misak {
+        flex-direction: column;
+        text-align: center;
+        padding: 4rem 5%;
+    }
+
+    .hero-misak-content,
+    .hero-misak-image {
+        max-width: 100%;
+    }
+
+    .hero-misak-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero-misak-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-misak-image {
+        margin-top: 3rem;
+    }
+
+    .hero-misak-features {
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+
+    .hero-misak-features span {
+        flex: 0 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-misak-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-misak-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .hero-misak-content p {
+        font-size: 1.1rem;
+    }
+
+    .hero-misak-features {
+        gap: 1rem;
+    }
+
+    .hero-misak-features span {
+        padding: 8px 20px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-misak {
+        padding: 3rem 5%;
+    }
+
+    .hero-misak-content h1 {
+        font-size: 2.4rem;
+        margin: 30px 0 20px;
+    }
+
+    .hero-misak-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .hero-misak-content p {
+        font-size: 1rem;
+    }
+
+    .hero-misak-features {
+        flex-direction: row;
+        gap: 0.8rem;
+    }
+
+    .hero-misak-features span {
+        padding: 0 5px;
+        font-size: 0.8em;
+    }
+}

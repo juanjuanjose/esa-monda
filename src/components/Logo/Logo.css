@@ -1,0 +1,27 @@
+.logo-texts {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-logo);
+    font-weight: var(--font-logo-weight);
+}
+
+.logo-misak {
+    color: #3498db;
+}
+
+.logo-guamb {
+    color: #ED00AA;
+}
+
+.logo-shop {
+    color: #e67e22;
+}
+
+@media (max-width: 600px){
+    .logo-texts{
+        display: block;
+    }
+
+}

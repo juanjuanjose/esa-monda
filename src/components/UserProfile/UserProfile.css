@@ -1,0 +1,539 @@
+.profile-container {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 13rem;
+  box-sizing: border-box;
+}
+
+.profile-header {
+  flex-direction: column;
+  background-color: #f8f8f8;
+  height: 190px;
+  border-radius: 15px;
+  width: 160px;
+}
+
+.user-profile-iconss {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--color-accent);
+  border-radius: 4px 4px 0 0;
+  margin: 10px 0 0 0;
+}
+
+.profile-icons {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.profile-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.profile-nav {
+  margin: 10px;
+}
+
+.profile-nav ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  background: none;
+  border: none;
+  padding: 0 0;
+  width: 100%;
+}
+
+.profile-nav ul li a svg {
+  fill: currentColor;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.profile-nav .message-texts {
+  margin: 5px;
+  letter-spacing: .1299px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 12.99px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.profile-content {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-content .search-bar input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+
+}
+
+.tab-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab-bar button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-small);
+  color: var(--color-text-meta);
+}
+
+.tab-bar button:hover {
+  background-color: var(--color-accent);
+  color: var(--color-button-text);
+  opacity: 0.9;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.search-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.no-orders {
+  margin-top: 50px;
+}
+
+.wt-icon-span svg {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  background-color: var(--clg-color-app-brand-icon-empty-background, #eaeaea) !important;
+  fill: var(--clg-color-app-brand-icon-empty-foreground, #222) !important;
+}
+
+.no-orders img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.no-orders-p {
+  font-size: 16px;
+  color: #666;
+  letter-spacing: .48px;
+  font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+.no-orders-ps {
+  color: #595959 !important;
+  letter-spacing: .16px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+.user-profile-iconss .editar-perfil {
+  border: none;
+  background-color: transparent;
+  color: var(--color-button-text);
+  letter-spacing: .1299px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 12.99px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0 0 0 10px;
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .profile-container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 12rem;
+    box-sizing: border-box;
+  }
+
+  .profile-header {
+    flex-direction: column;
+    background-color: #f8f8f8;
+    height: 190px;
+    border-radius: 15px;
+    width: 160px;
+  }
+
+  .user-profile-iconss {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color-accent);
+    border-radius: 4px 4px 0 0;
+    margin: 20px 0 0 0;
+
+  }
+
+  .profile-icons {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 3px;
+  }
+
+  .profile-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .profile-nav {
+    margin: 10px;
+  }
+
+  .profile-nav ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background: none;
+    border: none;
+    padding: 0 0;
+    width: 100%;
+  }
+
+  .profile-nav ul li a svg {
+    fill: currentColor;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+  }
+
+  .profile-nav .message-texts {
+    margin: 5px;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 12.99px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .profile-content {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .profile-content .search-bar input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+
+  }
+
+  .tab-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .tab-bar button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-small);
+    color: var(--color-text-meta);
+  }
+
+  .tab-bar button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    opacity: 0.9;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .search-button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .no-orders {
+    margin-top: 50px;
+  }
+
+  .wt-icon-span svg {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    background-color: var(--clg-color-app-brand-icon-empty-background, #eaeaea) !important;
+    fill: var(--clg-color-app-brand-icon-empty-foreground, #222) !important;
+  }
+
+  .no-orders img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .no-orders-p {
+    font-size: 16px;
+    color: #666;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.15;
+  }
+
+  .no-orders-ps {
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .user-profile-iconss .editar-perfil {
+    border: none;
+    background-color: transparent;
+    color: var(--color-button-text);
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 12.99px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+  }
+
+}
+
+@media (min-width: 1820px) {
+  .profile-container {
+    width: 100%;
+    max-width: 1550px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 17rem;
+    box-sizing: border-box;
+  }
+
+  .profile-header {
+    flex-direction: column;
+    background-color: #f8f8f8;
+    height: 250px;
+    border-radius: 15px;
+    width: 200px;
+  }
+
+  .user-profile-iconss {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color-accent);
+    border-radius: 4px 4px 0 0;
+    margin: 20px 0 0 0;
+
+  }
+
+  .profile-icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 3px;
+  }
+
+  .profile-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .profile-nav {
+    margin: 10px 15px;
+  }
+
+  .profile-nav ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background: none;
+    border: none;
+    padding: 0 0;
+    width: 100%;
+  }
+
+  .profile-nav ul li a svg {
+    fill: currentColor;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+  }
+
+  .profile-nav .message-texts {
+    margin: 5px;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 15.99px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .profile-content {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .profile-content .search-bar input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+
+  }
+
+  .tab-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .tab-bar button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 30px;
+    font-family: var(--font-body);
+    font-size: 20px;
+    color: var(--color-text-meta);
+  }
+
+  .tab-bar button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    opacity: 0.9;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .search-button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .no-orders {
+    margin-top: 50px;
+  }
+
+  .wt-icon-span svg {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    background-color: var(--clg-color-app-brand-icon-empty-background, #eaeaea) !important;
+    fill: var(--clg-color-app-brand-icon-empty-foreground, #222) !important;
+  }
+
+  .no-orders img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .no-orders-p {
+    font-size: 16px;
+    color: #666;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 31.01px;
+    font-weight: 300;
+    line-height: 1.15;
+  }
+
+  .no-orders-ps {
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .user-profile-iconss .editar-perfil {
+    border: none;
+    background-color: transparent;
+    color: var(--color-button-text);
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 15.99px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+  }
+
+
+}

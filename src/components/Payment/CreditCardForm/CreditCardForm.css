@@ -1,0 +1,116 @@
+/* CreditCardForm.css */
+.credit-card-form {
+}
+.credit-card-form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credit-card-form h2 {
+    font-size: 16px;
+    color: #5a4a42;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.15;
+}
+
+.credit-card-form label {
+    margin-bottom: 10px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--color-text-meta);
+    font-weight: 400;
+}
+
+.credit-card-form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--text-warm);
+    background-color: var(--input-background);
+    box-sizing: border-box;
+    outline: none;
+}
+.credit-card-form input:hover,
+.credit-card-form input:focus{
+    outline: none;
+    border-color: var(--accent-warm);
+    box-shadow: 0 0 0 2px rgba(139, 122, 107, 0.2);
+}
+.credit-card-form input::placeholder {
+    color: var(--text-light);
+}
+
+.credit-card-form .expiration-cvv {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.credit-card-submit-button{
+    display: flex;
+    justify-content: end;
+}
+.credit-card-form button {
+    padding: 0.60rem 2.5rem;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    font-weight: var(--font-body-bold-weight);
+    color: var(--color-button-text);
+    background-color: var(--color-accent);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.credit-card-form button:hover {
+    background-color: rgba(58, 9, 44, 0.85);
+    color: var(--color-button-text); 
+}
+.form-section {
+    flex: 1;
+    max-width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 402px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-contrast-bg);
+    padding: 35px;
+    height: 100%;
+}
+
+.accepted-cards {
+    max-width: 35%;
+    margin-left: 20px;
+    text-align: center;
+}
+.accepted-cards p{
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+}
+
+.card-logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card-logos img {
+    width: 40px;
+    height: auto;
+}

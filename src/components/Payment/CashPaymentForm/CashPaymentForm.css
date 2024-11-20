@@ -1,0 +1,104 @@
+/* Contenedor principal */
+.cash-payment-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--color-bg);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+}
+
+.cash-payment-form-container h2 {
+    font-size: 24px;
+    color: #5a4a42;
+    font-family: Guardian-EgypTT, Charter, Cambria, Noto Serif Light, Droid Serif, Georgia, serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.cash-payment-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.cash-payment-form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--color-text-meta);
+}
+
+.cash-payment-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-size: var(--font-size-body-base);
+    background-color: var(--color-input);
+    color: var(--color-input-text);
+    transition: border-color 0.3s ease;
+}
+
+.cash-payment-input:hover {
+    background-color: var(--color-input-bg-hover);
+}
+
+.cash-payment-input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+}
+
+.cash-payment-input-error {
+    border-color: var(--color-error-message);
+}
+
+.cash-payment-error-message {
+    color: var(--color-error-message);
+    font-size: var(--font-size-body-small);
+    margin-top: 0.25rem;
+    display: block;
+}
+
+.cash-payment-submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    border: none;
+    border-radius: 4px;
+    font-size: var(--font-size-body-base);
+    font-weight: var(--font-body-bold-weight);
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.cash-payment-submit-button:hover {
+    opacity: 0.9;
+}
+
+.cash-payment-submit-button:disabled {
+    background-color: var(--text-light);
+    cursor: not-allowed;
+}
+
+.cash-payment-back-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cash-payment-back-link-a {
+    display: flex;
+    align-items: center;
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.cash-payment-back-link-a:hover {
+    text-decoration: underline;
+}
+
+.cash-payment-back-link-p {
+    margin-left: 0.5rem;
+    font-size: var(--font-size-body-base);
+}

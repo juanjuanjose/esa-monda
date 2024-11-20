@@ -1,0 +1,351 @@
+.category-confirmation {
+  background-color: var(--gray-color);
+  padding: 1px 22rem;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+
+  box-sizing: border-box;
+}
+
+.category-confirmation .category-confirmation-div {
+  max-width: 600px;
+  padding: 2rem;
+  background-color: var(--color-bg);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.category-confirmation .back-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: var(--eerie-black);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-small);
+}
+
+
+.category-confirmation .back-link p {
+  margin: 5px;
+  letter-spacing: .1299px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 12.99px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.category-confirmation .back-link svg {
+  fill: currentColor;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  color: var(--color-accent);
+}
+
+.category-confirmation h2 {
+  line-height: 1.7em;
+  margin: 0;
+  font-family: var(--font-heading), sans-serif;
+  font-weight: var(--font-heading-weight);
+  font-style: var(--font-heading-style);
+  color: #4a3933;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.category-confirmation .category-details {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-contrast-bg);
+  padding: 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.category-confirmation .category-details h3 {
+  color: var(--eerie-black);
+  margin: 0 0 0 20px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 15.99px;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.category-confirmation .category-name {
+  font-family: var(--font-subheading);
+  font-size: var(--font-size-body-large);
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+.category-confirmation p {
+  color: #595959 !important;
+  letter-spacing: .16px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+.category-confirmation .confirm-button-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.category-confirmation .confirm-button {
+  padding: 0.60rem 2.5rem;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-base);
+  font-weight: var(--font-body-bold-weight);
+  color: var(--color-button-text);
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.category-confirmation .confirm-button:hover {
+  background-color: rgba(58, 9, 44, 0.85);
+  color: var(--color-button-text);
+}
+
+.category-image {
+  height: 46px;
+  width: 46px;
+  object-fit: contain;
+}
+
+@media (min-width: 1200px){
+  .category-confirmation {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--color-bg);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+  }
+
+  .category-confirmation .back-link {
+    margin-bottom: 1rem;
+    color: var(--color-text-meta);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-small);
+  }
+
+    .category-confirmation .back-link svg {
+      fill: currentColor;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      color: var(--color-accent);
+    }
+        .category-confirmation .back-link p {
+          margin: 5px;
+          letter-spacing: .1299px;
+          font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+          font-size: 14.99px;
+          font-weight: 400;
+          line-height: 1.4;
+        }
+
+  .category-confirmation h2 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-heading-2);
+    color: var(--color-text);
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
+
+  .category-confirmation .category-details {
+    background-color: var(--color-contrast-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+
+  .category-confirmation .category-details h3 {
+    color: var(--);
+    margin: 5px;
+  }
+
+  .category-confirmation .category-name {
+    font-family: var(--font-subheading);
+    font-size: var(--font-size-body-large);
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .category-confirmation .info-text {
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    color: var(--color-text-meta);
+    line-height: var(--line-height-base);
+    margin-bottom: 1.5rem;
+  }
+
+  .category-confirmation .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .category-confirmation .confirm-button {
+    padding: 0.75rem 1.5rem;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    font-weight: var(--font-body-bold-weight);
+    color: var(--color-button-text);
+    background-color: var(--color-accent);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+
+  .category-confirmation .confirm-button:hover {
+    background-color: var(--color-navigation-text-meta);
+  }
+}
+
+@media (min-width: 1820px) {
+  .category-confirmation {
+    background-color: var(--gray-color);
+    padding: 1px 22rem;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+
+    box-sizing: border-box;
+  }
+
+  .category-confirmation .category-confirmation-div {
+    max-width: 800px;
+    margin: 5rem auto;
+    padding: 6rem;
+    background-color: var(--color-bg);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    box-sizing: border-box;
+  }
+
+  .category-confirmation .back-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: var(--eerie-black);
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-small);
+  }
+
+
+  .category-confirmation .back-link p {
+    margin: 5px;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 22.99px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .category-confirmation .back-link svg {
+    fill: currentColor;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    color: var(--color-accent);
+  }
+
+  .category-confirmation h2 {
+    line-height: 1.7em;
+    margin: 0;
+    font-family: var(--font-heading), sans-serif;
+    font-weight: var(--font-heading-weight);
+    font-style: var(--font-heading-style);
+    font-size: 30px;
+    color: #4a3933;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .category-confirmation .category-details {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-contrast-bg);
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+
+  .category-confirmation .category-details h3 {
+    color: var(--eerie-black);
+    margin: 0 0 0 20px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 20.99px;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .category-confirmation .category-name {
+    font-family: var(--font-subheading);
+    font-size: var(--font-size-body-large);
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .category-confirmation p {
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+    margin-bottom: 50px;
+  }
+
+  .category-confirmation .confirm-button-div {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .category-confirmation .confirm-button {
+    padding: 1.30rem 3rem;
+    font-family: var(--font-body);
+    font-size: 22px;
+    font-weight: var(--font-body-bold-weight);
+    color: var(--color-button-text);
+    background-color: var(--color-accent);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .category-confirmation .confirm-button:hover {
+    background-color: rgba(58, 9, 44, 0.85);
+    color: var(--color-button-text);
+  }
+
+  .category-confirmation a svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .category-image {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+  }
+
+}

@@ -1,0 +1,218 @@
+.join-us {
+  background-color: var(--gray-color);
+  padding: 3rem 0;
+}
+
+.join-us-v {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+}
+
+.join-us h1 {
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.join-us p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.join-us img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.join-us h2 {
+  font-size: 1.8em;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.join-us p:last-child {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .join-us {
+    padding: 15px;
+  }
+
+  .join-us h1 {
+    font-size: 1.8em;
+  }
+
+  .join-us p {
+    font-size: 1em;
+  }
+
+  .join-us img {
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .join-us {}
+
+  .join-us-v {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+  }
+
+  .join-us-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .join-us-text {
+    max-width: 800px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .join-us h1 {
+    font-size: 1.5em;
+    color: #4a3933;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    font-family: var(--font-heading), sans-serif;
+    font-weight: var(--font-heading-weight);
+    font-style: var(--font-heading-style);
+    text-align: left;
+    margin: 0;
+  }
+
+  .join-us p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: left;
+    text-align-last: left;
+  }
+
+  .join-us img {
+    max-width: 230px;
+    height: 230px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .join-us h2 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .join-us p:last-child {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 680px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1820px) {
+  .join-us {}
+
+  .join-us-v {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+  }
+
+  .join-us-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .join-us-text {
+    max-width: 800px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .join-us h1 {
+    font-size: 2.2em;
+    color: #4a3933;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    font-family: var(--font-heading), sans-serif;
+    font-weight: var(--font-heading-weight);
+    font-style: var(--font-heading-style);
+    text-align: left;
+    margin: 0;
+  }
+
+  .join-us p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: left;
+    text-align-last: left;
+  }
+
+  .join-us img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .join-us h2 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .join-us p:last-child {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 680px;
+    text-align: left;
+  }
+}

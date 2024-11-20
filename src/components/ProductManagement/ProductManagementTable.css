@@ -1,0 +1,814 @@
+.product-management-section h2 {
+    font-size: 24px;
+    color: #666;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 30px 0 32px;
+}
+
+.bulk-actions-container {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.table-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.search-input,
+.filter-select {
+    padding: 0.70rem 1rem;
+    border: 2px solid #e67e22;
+    border-radius: 8px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    color: var(--color-input-text);
+    background-color: var(--color-input);
+    margin: 0;
+    outline: none;
+}
+
+.search-input {
+    width: 300px;
+    padding-right: 40px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 54%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.search-button svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+.filter-select {
+    width: auto;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th {
+    color: #5a4a42;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+    border-bottom: 1px solid var(--color-border);
+
+}
+
+.product-table td {
+    color: #5a4a42;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.product-table th {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-small);
+    color: var(--color-text-meta);
+}
+
+.product-table th:hover {
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    opacity: 0.9;
+}
+
+.product-table .input-checkbox {
+    position: relative;
+    right: 4px;
+}
+
+.product-images {
+    display: flex;
+    gap: 5px;
+    margin: 6px 0 0;
+}
+
+.product-images {
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.bulk-actions {
+    margin-bottom: 20px;
+}
+
+.bulk-actions span {
+    margin-right: 10px;
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+}
+
+.bulk-actions button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+}
+
+.status-text {
+    font-weight: bold;
+    text-transform: none;
+}
+
+.status-text.pending {
+    color: #DAA520;
+}
+
+.status-text.approved {
+    color: #228B22;
+}
+
+.status-text.rejected {
+    color: var(--color-error-message);
+}
+
+.action-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin-right: 5px;
+}
+
+.action-btn.primary {
+    background-color: #4CAF50;
+}
+
+.action-btn.secondary {
+    background-color: var(--color-error-message);
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: var(--background-color);
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.modal-content h2 {
+    color: var(--text-warm);
+    font-size: 22px;
+    letter-spacing: .48px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 0 0 30px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.confirm-btn {
+    background-color: var(--color-success-message);
+    color: white;
+}
+
+.cancel-btn {
+    background-color: var(--color-error-message);
+    color: white;
+}
+
+@media (min-width: 1200px) {
+    .product-management-section h2 {
+        font-size: 24px;
+        color: #666;
+        letter-spacing: .48px;
+        font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 30px 0 32px;
+    }
+
+    .bulk-actions-container {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .table-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .search-input,
+    .filter-select {
+        padding: 0.70rem 1rem;
+        border: 2px solid #e67e22;
+        border-radius: 8px;
+        font-family: var(--font-body);
+        font-size: var(--font-size-body-base);
+        color: var(--color-input-text);
+        background-color: var(--color-input);
+        margin: 0;
+        outline: none;
+    }
+
+    .search-input {
+        width: 300px;
+        padding-right: 40px;
+    }
+
+    .search-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .search-button {
+        position: absolute;
+        right: 10px;
+        top: 54%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    .search-button svg {
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+    }
+
+    .filter-select {
+        width: auto;
+    }
+
+    .product-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .product-table th {
+        color: #5a4a42;
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        max-width: 600px;
+        border-bottom: 1px solid var(--color-border);
+
+    }
+
+    .product-table td {
+        color: #5a4a42;
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        max-width: 600px;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .product-table th {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px 20px;
+        font-family: var(--font-body);
+        font-size: var(--font-size-body-small);
+        color: var(--color-text-meta);
+    }
+
+    .product-table th:hover {
+        background-color: var(--color-accent);
+        color: var(--color-button-text);
+        opacity: 0.9;
+    }
+
+    .product-table .input-checkbox {
+        position: relative;
+        right: 4px;
+    }
+
+    .product-images {
+        display: flex;
+        gap: 5px;
+        margin: 6px 0 0;
+    }
+
+    .product-images {
+        height: 50px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+
+    .bulk-actions {
+        margin-bottom: 20px;
+    }
+
+    .bulk-actions span {
+        margin-right: 10px;
+        color: #595959 !important;
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        max-width: 600px;
+    }
+
+    .bulk-actions button {
+        margin-right: 10px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        background-color: #4CAF50;
+    }
+
+    .status-text {
+        font-weight: bold;
+        text-transform: none;
+    }
+
+    .status-text.pending {
+        color: #DAA520;
+    }
+
+    .status-text.approved {
+        color: #228B22;
+    }
+
+    .status-text.rejected {
+        color: var(--color-error-message);
+    }
+
+    .action-btn {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        margin-right: 5px;
+    }
+
+    .action-btn.primary {
+        background-color: #4CAF50;
+    }
+
+    .action-btn.secondary {
+        background-color: var(--color-error-message);
+    }
+
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .action-btn {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        margin: 0;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .modal-content {
+        background-color: var(--background-color);
+        padding: 40px 30px;
+        border-radius: 8px;
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+    }
+
+    .modal-content h2 {
+        color: var(--text-warm);
+        font-size: 22px;
+        letter-spacing: .48px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 0 0 30px;
+    }
+
+    .modal-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .modal-buttons button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .confirm-btn {
+        background-color: var(--color-success-message);
+        color: white;
+    }
+
+    .cancel-btn {
+        background-color: var(--color-error-message);
+        color: white;
+    }
+
+}
+
+@media (min-width: 1820px) {
+    .product-management-section h2 {
+        font-size: 30px;
+        color: #666;
+        letter-spacing: .48px;
+        font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 30px 0 32px;
+    }
+
+    .bulk-actions-container {
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .table-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .search-input,
+    .filter-select {
+        padding: 1.20rem 2rem;
+        border: 2px solid #e67e22;
+        border-radius: 8px;
+        font-family: var(--font-body);
+        font-size: var(--font-size-body-base);
+        color: var(--color-input-text);
+        background-color: var(--color-input);
+        margin: 0;
+        outline: none;
+        font-size: 20px;
+    }
+
+    .search-input {
+        width: 400px;
+        padding-right: 40px;
+    }
+
+    .search-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .search-button {
+        position: absolute;
+        right: 10px;
+        top: 54%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    .search-button svg {
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+    }
+
+    .filter-select option {
+        background-color: white;
+        margin: 5px;
+        letter-spacing: .1299px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 12.99px;
+        font-weight: 400;
+        line-height: 1.4;
+        width: 40px;
+        position: absolute;
+        width: 20px;
+    }
+
+    .filter-select option:hover,
+    .filter-select option:focus,
+    .filter-select option:active,
+    .filter-select option:checked {
+        background-color: white;
+        color: #333;
+    }
+
+    .filter-select option:checked {
+        background-color: white;
+    }
+
+    .filter-select {
+        width: auto;
+    }
+
+    .product-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .product-table th {
+        color: var(--color-text-meta);
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        max-width: 600px;
+        padding: 15px 20px;
+        border-bottom: 1px solid var(--color-border);
+        font-size: 20px;
+
+    }
+
+    .product-table td {
+        color: #5a4a42;
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.7;
+        max-width: 600px;
+        border-bottom: 1px solid var(--color-border);
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .product-table td:nth-child(3) {
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 4%;
+    }
+
+    .product-table td.product-name {
+        text-align: left;
+    }
+
+    .product-table th:hover {
+        background-color: var(--color-accent);
+        color: var(--color-button-text);
+        opacity: 0.9;
+    }
+
+    .product-table .input-checkbox {
+        position: relative;
+        right: 4px;
+    }
+
+    .product-images {
+        display: flex;
+        gap: 5px;
+        margin: 6px 0 0;
+    }
+
+    .product-images {
+        height: 50px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+
+    .bulk-actions {
+        margin-bottom: 20px;
+    }
+
+    .bulk-actions span {
+        margin-right: 10px;
+        color: #595959 !important;
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        max-width: 600px;
+    }
+
+    .bulk-actions button {
+        margin-right: 10px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        background-color: #4CAF50;
+    }
+
+    .status-text {
+        font-weight: bold;
+        text-transform: none;
+    }
+
+    .status-text.pending {
+        color: #DAA520;
+    }
+
+    .status-text.approved {
+        color: #228B22;
+    }
+
+    .status-text.rejected {
+        color: var(--color-error-message);
+    }
+
+    .action-btn.primary {
+        background-color: #4CAF50;
+    }
+
+    .action-btn.secondary {
+        background-color: var(--color-error-message);
+    }
+
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .action-btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .modal-content {
+        background-color: var(--background-color);
+        padding: 40px 30px;
+        border-radius: 8px;
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+    }
+
+    .modal-content h2 {
+        color: var(--text-warm);
+        font-size: 22px;
+        letter-spacing: .48px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 0 0 30px;
+    }
+
+    .modal-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .modal-buttons button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .confirm-btn {
+        background-color: var(--color-success-message);
+        color: white;
+    }
+
+    .cancel-btn {
+        background-color: var(--color-error-message);
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {}

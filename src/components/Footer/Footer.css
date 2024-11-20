@@ -1,0 +1,154 @@
+.footer {
+    background-color: var(--color-footer-bg);
+    color: var(--color-footer-text);
+    padding-bottom: 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 0 70px 0;
+}
+
+.footer-section {
+    margin: 0 15px;
+    font-size: var(--font-size-body-small);
+    line-height: 1.5em;
+    line-height: var(--line-height-body);
+    font-family: var(--font-body), georgia;
+
+}
+
+.footer-section:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: -20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: var(--font-size-body-small);
+    line-height: 1.5em;
+    line-height: var(--line-height-body);
+    font-family: var(--font-body), georgia;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    font-size: var(--font-size-body-small);
+    line-height: 1.5em;
+    line-height: var(--line-height-body);
+    font-family: var(--font-body), georgia;
+    margin: 0;
+
+}
+
+.social-icon {
+    fill: var(--color-footer-text-meta);
+    width: 24px;
+    height: 24px;
+    margin: 0 5px 0 17px;
+}
+
+.redes-sociales-footer {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.redes-sociales-footer p {
+    margin: 10px;
+    position: relative;
+    top: -1px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: var(--color-footer-text);
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 10px;
+        font-size: var(--font-size-body-small);
+        line-height: 1.5em;
+        line-height: var(--line-height-body);
+        font-family: var(--font-body), georgia;
+    }
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    .footer {
+        background-color: var(--color-footer-bg);
+        color: var(--color-footer-text);
+        padding-bottom: 0px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    .footer-section:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+}
+
+@media (min-width: 1820px) {
+    .footer {
+        background-color: var(--color-footer-bg);
+        color: var(--color-footer-text);
+        padding-bottom: 0px;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    .footer-section:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-top: 0;
+    }
+}

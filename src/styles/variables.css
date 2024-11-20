@@ -1,0 +1,164 @@
+:root {
+    --background-light: #F3F4F6;
+    --primary-color: #0000FF;
+    --secondary-color: #000000;
+    --background-color: #FFFFFF;
+    --accent-color: #FF0000;
+    --gray-color: #F0F0F0;
+    --yellow-star: #FFD700;
+    --color-accent: #3a092c;
+    --color-text: #3d3d3d;
+    --color-text-meta: #757575;
+    --color-button-text: #f1d9b7;
+    --color-bg: #ffffff;
+    --color-border: #ffffff;
+    --color-input: #ffffff;
+    --color-input-text: #363636;
+    --color-input-bg-hover: rgba(54, 54, 54, 0.05);
+    --color-secondary-button: #f1d9b7;
+    --color-secondary-button-text: #3a092c;
+    --color-sale-badge: #e68630;
+    --color-success-message: #82b875;
+    --color-error-message: #b6534c;
+    --color-header-text: #363636;
+    --color-header-bg: #ffffff;
+    --color-header-border: #e2e2e2;
+    --color-header-icon: #9a9a9a;
+    --color-contrast-text: #363636;
+    --color-contrast-text-meta: #707070;
+    --color-contrast-bg: #f7f5f5;
+    --color-contrast-border: #e2e2e2;
+    --color-contrast-input: #ffffff;
+    --color-contrast-input-text: #363636;
+    --color-navigation-text: #3a092c;
+    --color-navigation-text-meta: #6b0f4c;
+    --color-navigation-bg: #f1d9b7;
+    --color-navigation-bg-darker: #edcea2;
+    --color-navigation-border: #3a092c;
+    --color-navigation-feature: #26352f;
+    --color-drawer-text: #3a092c;
+    --color-drawer-text-meta: #e68630;
+    --color-drawer-bg: #f1d9b7;
+    --color-drawer-border: #3a092c;
+    --color-drawer-bg-hover: rgba(58, 9, 44, 0.05);
+    --color-footer-text: #f1d9b7;
+    --color-footer-text-meta: #f1d9b7;
+    --color-footer-bg: #3a092c;
+    --color-footer-border: #3a092c;
+    --color-footer-input: #ffffff;
+    --color-footer-input-text: #757575;
+    --color-bg-overlay: rgba(61, 61, 61, 0.25);
+    --color-transparent-body: rgba(61, 61, 61, 0.5);
+
+    /* Negros claros y opacos */
+    --charcoal: #36454F;
+    --onyx: #353839;
+    --jet: #343434;
+    --eclipse: #3C3C3C;
+    --raisin-black: #242124;
+    --eerie-black: #1B1B1B;
+
+    --text-dark: #333333;
+    --text-medium: #757575;
+    --text-light: #999999;
+    --text-darker: #222222;
+    --element-dark: #3E3E3E;
+    
+    /* Grises opacos */
+    --llm: #666;
+    --davy-grey: #555555;
+    --dim-gray: #696969;
+    --granite-gray: #676767;
+    --spanish-gray: #989898;
+    --lights-gray: #e6e6e6;
+    
+    /* Blancos opacos */
+    --platinum: #E5E4E2;
+    --gainsboro: #DCDCDC;
+    --light-gray: #D3D3D3;
+    --cultured: #F5F5F5;
+    --light-gray: #E0E0E0;
+    
+    /* Colores complementarios opacos */
+    --faded-blue: #6699CC;
+    --pastel-blue: #A7C7E7;
+    --sage: #B2AC88;
+    
+    --khaki: #C3B091;
+    --pale-silver: #C9C0BB;
+    --champagne-pink: #F1E0D6;
+    
+    /* Marrones opacos */
+    --taupe: #483C32;
+    --coffee: #6F4E37;
+    --beaver: #9F8170;
+    --pale-taupe: #BC987E;
+    --tan: #D2B48C;
+    --wheat: #F5DEB3;
+    --coffe-line:#c9a66b;
+
+    /* Sombra de Caja */
+    --box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --font-body: 'Open Sans', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-accent: 'Caveat', cursive;
+
+    /* Fuentes serif */
+    --font-merriweather: 'Merriweather', serif;
+    --clibre: 'Libre Baskerville', serif;
+    --font-lora: 'Lora', serif;
+    --font-cormorant: 'Cormorant', serif;
+    --font-playfair-display: 'Playfair Display', serif;
+    --font-crimson-text: 'Crimson Text', serif;
+    
+    /* Fuentes sans-serif */
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-lato: 'Lato', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-nunito: 'Nunito', sans-serif;
+    --font-logo: Agmena, serif;
+    --font-logo-weight: 700;
+    --font-logo-style: normal;
+    --font-heading: "New York", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-heading-weight: 400;
+    --font-heading-style: normal;
+    --font-heading-bold-weight: bold;
+    --font-body: Cabin, sans-serif;
+    --font-body-weight: 400;
+    --font-body-style: normal;
+    --font-body-bold-weight: 500;
+    
+        /* Fuentes display */
+    --font-bebas-neue: 'Bebas Neue', cursive;
+    --font-pacifico: 'Pacifico', cursive;
+    --font-quicksand: 'Quicksand', sans-serif;
+    --font-amatic-sc: 'Amatic SC', cursive;
+    --font-caveat: 'Caveat', cursive;
+    
+        /* Variables para uso general */
+    --font-heading: var(--font-playfair-display);
+    --font-subheading: var(--font-montserrat);
+    --font-body: var(--font-open-sans);
+    --font-accent: var(--font-caveat);
+    
+    --font-size-base: 16px;
+    --font-size-accent: 1.2em;
+    --font-size-product-title: 24px;
+    --font-size-product-description: 14px;
+    --font-size-price: 18px;
+    --font-size-handmade-label: 16px;
+    --line-height-base: 1.6;
+
+    --font-size-body-extra-small: 12px;
+    --font-size-body-small: 14px;
+    --font-size-body-base: 16px;
+    --font-size-body-large: 18px;
+    --font-size-body-extra-large: 21px;
+    --font-size-heading-display: 45px;
+    --font-size-heading-1: 30px;
+    --font-size-heading-2: 26px;
+    --font-size-heading-3: 23px;
+}
+

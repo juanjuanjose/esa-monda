@@ -1,0 +1,845 @@
+.my-publications-container {
+    padding: 10px 70px 30px 70px;
+
+}
+
+.my-publications-main-content h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #666;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 30px 0 32px
+}
+
+.my-publications-header {
+    margin-bottom: 20px;
+}
+
+.create-product-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 12.99px;
+    font-weight: 400;
+}
+
+.create-product-button:hover {
+    background-color: #45a049;
+}
+
+.admin-dashboard-container {
+    display: flex;
+    font-family: var(--font-body);
+    color: var(--text-dark);
+    background-color: var(--color-bg);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 2.5rem;
+}
+
+.admin-dashboard-profile-header {
+    background-color: #f8f8f8;
+    height: 200px;
+    border-radius: 15px;
+    width: 261px;
+}
+
+.admin-dashboard-user-profile-icons {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--color-accent);
+    border-radius: 4px 4px 0 0;
+    margin-top: 10px;
+}
+
+.admin-dashboard-profile-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.admin-dashboard-edit-profile {
+    color: var(--color-button-text);
+    font-size: 12.99px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.admin-dashboard-profile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 11px;
+}
+
+.admin-dashboard-profile-nav ul li {
+    padding: 5px;
+}
+
+.admin-dashboard-profile-nav ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.admin-dashboard-profile-nav ul li a svg {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+}
+
+.admin-dashboard-profile-nav ul li a p {
+    margin: 5px;
+    font-size: 12.99px;
+}
+
+.admin-dashboard-main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.confirm-btn,
+.cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: var(--background-color);
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.modal-content h2 {
+    color: var(--text-warm);
+    font-size: 22px;
+    letter-spacing: .48px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 0 0 30px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.confirm-btn {
+    background-color: var(--color-success-message);
+    color: white;
+}
+
+.cancel-btn {
+    background-color: var(--color-error-message);
+    color: white;
+}
+
+.my-publications-header a {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+}
+
+.no-products-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-products-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.no-products-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-products-message {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.no-products-message .no-products-message-icons {
+    margin-top: 8rem;
+}
+
+.no-products-message .no-products-message-icons svg {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    background-color: var(--clg-color-app-brand-icon-empty-background, #eaeaea) !important;
+    fill: var(--clg-color-app-brand-icon-empty-foreground, #222) !important;
+}
+
+.no-products-message-p {
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0 100px;
+}
+
+.create-product-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.create-product-button:hover {
+    background-color: #218838;
+}
+
+@media (min-width: 1200px) {
+    .my-publications-container {
+        padding: 10px 70px 5rem 70px;
+
+    }
+
+    .my-publications-main-content h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #666;
+        letter-spacing: .48px;
+        font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 30px 0 32px
+    }
+
+    .my-publications-header {
+        margin-bottom: 20px;
+    }
+
+    .create-product-button {
+        padding: 1.10rem 2rem;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 15px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 12.99px;
+        font-weight: 400;
+    }
+
+    .create-product-button:hover {
+        background-color: #45a049;
+    }
+
+    .admin-dashboard-container {
+        display: flex;
+        font-family: var(--font-body);
+        color: var(--text-dark);
+        background-color: var(--color-bg);
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+
+    .admin-dashboard-profile-header {
+        background-color: #f8f8f8;
+        height: 200px;
+        border-radius: 15px;
+        width: 261px;
+    }
+
+    .admin-dashboard-user-profile-icons {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: var(--color-accent);
+        border-radius: 4px 4px 0 0;
+        margin-top: 10px;
+    }
+
+    .admin-dashboard-profile-icon {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin: 3px;
+    }
+
+    .admin-dashboard-edit-profile {
+        color: var(--color-button-text);
+        font-size: 12.99px;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+
+    .admin-dashboard-profile-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 11px;
+    }
+
+    .admin-dashboard-profile-nav ul li {
+        padding: 5px;
+    }
+
+    .admin-dashboard-profile-nav ul li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .admin-dashboard-profile-nav ul li a svg {
+        fill: currentColor;
+        width: 24px;
+        height: 24px;
+    }
+
+    .admin-dashboard-profile-nav ul li a p {
+        margin: 5px;
+        font-size: 12.99px;
+    }
+
+    .admin-dashboard-main-content {
+        flex-grow: 1;
+        padding: 20px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .modal-buttons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .confirm-btn,
+    .cancel-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .confirm-btn {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .cancel-btn {
+        background-color: #f44336;
+        color: white;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .modal-content {
+        background-color: var(--background-color);
+        padding: 40px 30px;
+        border-radius: 8px;
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+    }
+
+    .modal-content h2 {
+        color: var(--text-warm);
+        font-size: 22px;
+        letter-spacing: .48px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 0 0 30px;
+    }
+
+    .modal-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .modal-buttons button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .confirm-btn {
+        background-color: var(--color-success-message);
+        color: white;
+    }
+
+    .cancel-btn {
+        background-color: var(--color-error-message);
+        color: white;
+    }
+
+    .my-publications-header a {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+    }
+
+    .no-products-container {
+        text-align: center;
+        padding: 2rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .no-products-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    .no-products-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .no-products-message {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .no-products-message .no-products-message-icons {
+        margin-top: 8rem;
+    }
+
+    .no-products-message .no-products-message-icons svg {
+        border-radius: 50%;
+        width: 96px;
+        height: 96px;
+        background-color: var(--clg-color-app-brand-icon-empty-background, #eaeaea) !important;
+        fill: var(--clg-color-app-brand-icon-empty-foreground, #222) !important;
+    }
+
+    .no-products-message-p {
+        color: #595959 !important;
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        margin: 0 100px;
+    }
+
+    .create-product-button {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .create-product-button:hover {
+        background-color: #218838;
+    }
+
+
+}
+
+@media (min-width: 1820px) {
+    .my-publications-container {
+        padding: 10px 70px 10rem 70px;
+
+    }
+
+    .my-publications-main-content h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #666;
+        letter-spacing: .48px;
+        font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 30px 0 32px
+    }
+
+    .my-publications-header {
+        margin-bottom: 20px;
+    }
+
+    .create-product-button {
+        display: inline-block;
+        padding: 1.20rem 2rem;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 15px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 20.99px;
+        font-weight: 400;
+    }
+
+    .create-product-button:hover {
+        background-color: #45a049;
+    }
+
+    .admin-dashboard-container {
+        display: flex;
+        font-family: var(--font-body);
+        color: var(--text-dark);
+        background-color: var(--color-bg);
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+
+    .admin-dashboard-profile-header {
+        background-color: #f8f8f8;
+        height: 200px;
+        border-radius: 15px;
+        width: 261px;
+    }
+
+    .admin-dashboard-user-profile-icons {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: var(--color-accent);
+        border-radius: 4px 4px 0 0;
+        margin-top: 10px;
+    }
+
+    .admin-dashboard-profile-icon {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin: 3px;
+    }
+
+    .admin-dashboard-edit-profile {
+        color: var(--color-button-text);
+        font-size: 12.99px;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+
+    .admin-dashboard-profile-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 11px;
+    }
+
+    .admin-dashboard-profile-nav ul li {
+        padding: 5px;
+    }
+
+    .admin-dashboard-profile-nav ul li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .admin-dashboard-profile-nav ul li a svg {
+        fill: currentColor;
+        width: 24px;
+        height: 24px;
+    }
+
+    .admin-dashboard-profile-nav ul li a p {
+        margin: 5px;
+        font-size: 12.99px;
+    }
+
+    .admin-dashboard-main-content {
+        flex-grow: 1;
+        padding: 20px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .modal-buttons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .confirm-btn,
+    .cancel-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .confirm-btn {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .cancel-btn {
+        background-color: #f44336;
+        color: white;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .modal-content {
+        background-color: var(--background-color);
+        padding: 40px 30px;
+        border-radius: 8px;
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+    }
+
+    .modal-content h2 {
+        color: var(--text-warm);
+        font-size: 22px;
+        letter-spacing: .48px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-weight: 300;
+        line-height: 1.15;
+        margin: 0 0 30px;
+    }
+
+    .modal-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .modal-buttons button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .confirm-btn {
+        background-color: var(--color-success-message);
+        color: white;
+    }
+
+    .cancel-btn {
+        background-color: var(--color-error-message);
+        color: white;
+    }
+
+    .my-publications-header a {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+    }
+
+    .no-products-container {
+        text-align: center;
+        padding: 2rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .no-products-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: #333;
+    }
+
+    .no-products-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .no-products-message {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .no-products-message .no-products-message-icons {
+        margin-top: 8rem;
+    }
+
+    .no-products-message .no-products-message-icons svg {
+        border-radius: 50%;
+        width: 96px;
+        height: 96px;
+        background-color: var(--clg-color-app-brand-icon-empty-background, #eaeaea) !important;
+        fill: var(--clg-color-app-brand-icon-empty-foreground, #222) !important;
+    }
+
+    .no-products-message-p {
+        color: #595959 !important;
+        letter-spacing: .16px;
+        font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        margin: 0 100px;
+    }
+}

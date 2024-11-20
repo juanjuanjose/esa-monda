@@ -1,0 +1,114 @@
+.payment-method-selector-div{
+    background-color: var(--gray-color);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    height: 100%;
+}
+.payment-method-selector {
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-contrast-bg);
+    padding: 30px;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 5rem 22rem;
+}
+
+.payment-method-selector-back-link .back-link-a,
+.payment-form-container .payment-method-selector-back-link{
+    display: flex;
+    align-items: center;
+    color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 0;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.payment-method-selector-back-link .back-link-a svg,
+.payment-form-container .payment-method-selector-back-link svg {
+    fill: currentColor;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+.payment-method-selector-back-link .back-link-a p{
+    margin: 5px;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 12.99px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.payment-method-selector h2 {
+    margin: 15px 0; 
+    color: #4a3933;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.15;
+}
+
+.method-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 16px;
+}
+
+.method-option:hover {
+    background-color: #f9f9f9;
+}
+.method-option-div{
+    margin: 0 0 0 25px;
+}
+.method-option p{
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+} 
+.method-option h3{
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    color: var(--color-text);
+    margin: 6px 0 3px;
+    font-weight: 400;
+}
+.radio-input {
+    margin-right: 16px;
+}
+.targeta-credito{
+    width: 150px;
+    height: 150px;
+}
+.efecty{
+    width: 150px;
+    height: 150px;
+}
+.icon {
+    margin-right: 16px;
+    color: #333;
+}
+.info-message p{
+    color: #595959 !important;
+    letter-spacing: .16px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+}

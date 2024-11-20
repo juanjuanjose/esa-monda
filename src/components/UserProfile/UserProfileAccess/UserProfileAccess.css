@@ -1,0 +1,98 @@
+.user-profile-access {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.user-profile-access__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-profile-access__logo {
+    flex: 1;
+}
+
+.user-profile-access__attractive {
+    flex: 1;
+    text-align: right;
+}
+
+.user-profile-access__attractive-text {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.user-profile-access__content {
+    margin-top: 70px;
+}
+
+.user-profile-access__title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.user-profile-access__button {
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+}
+
+.user-profile-access__button--primary {
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+
+}
+
+.user-profile-access__button--secondary {
+    background-color: #6B4C3E;
+    color: white;
+
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 600px) {
+    .user-profile-access {}
+
+    .user-profile-access__content {
+        margin-top: 100px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .user-profile-access__title {
+        line-height: 1.7em;
+        margin: 0;
+        font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+        font-size: 24px;
+        font-weight: var(--font-heading-weight);
+        font-style: var(--font-heading-style);
+        color: #4a3933;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .user-profile-access__attractive-text {
+        font-size: 1em;
+    }
+
+    .user-profile-access__button {
+        width: 90;
+        margin: 5px 0;
+        text-decoration: none;
+    }
+}

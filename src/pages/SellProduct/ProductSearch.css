@@ -1,0 +1,509 @@
+.product-search-container {
+  background-color: var(--gray-color);
+  padding: 2rem 22rem;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  height: 100%;
+}
+
+.product-search-container-c {
+  background-color: var(--color-contrast-bg);
+  padding: 30px;
+  height: 100%;
+
+}
+
+.product-search-container .back-link-a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 0;
+  text-decoration: none;
+}
+
+.product-search-container .back-link-a svg {
+  fill: currentColor;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  color: var(--color-accent);
+}
+
+.product-search-container-c .back-link-p {
+  margin: 5px;
+  letter-spacing: .1299px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 12.99px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.product-search-container-c .catalog-title {
+
+  font-size: 16px;
+  color: #4a3933;
+  letter-spacing: .48px;
+  font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+.product-search-container-c .search-box {
+  background-color: var(--color-contrast-bg);
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.product-search-container-c .search-box p {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-base);
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.product-search-container-c .search-box ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+.product-search-container-c .search-box li {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-small);
+  color: #5a4a42;
+  line-height: 1.30;
+
+}
+
+.product-search-container-c .extended-search-form {
+  display: flex;
+  gap: 1rem;
+}
+
+.product-search-container-c input[type="text"] {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-base);
+  color: var(--color-input-text);
+  background-color: var(--color-input);
+  margin: 0;
+}
+
+.product-search-container-c .search-box .product-search-buttonn[type="submit"] {
+  padding: 1px 20px;
+  border-radius: 30px;
+  background-color: var(--color-accent);
+  color: var(--color-button-text);
+  border: none;
+  border-radius: 10px;
+  font-family: var(--font-body);
+  font-size: var(--font-size-body-base);
+  font-weight: var(--font-body-bold-weight);
+  transition: background-color 0.3s ease;
+}
+
+.product-search-container-c .image-placeholder {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.product-search-container-c .image-placeholder img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.no-results-message {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  color: #721c24;
+  letter-spacing: .16px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+@media (min-width: 1200px){
+
+  .product-search-container {
+    flex: 1;
+    background-color: var(--gray-color);
+    padding: 5rem 22rem 8rem;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    height: 100%;
+  }
+
+  .product-search-container-c {
+    background-color: var(--color-contrast-bg);
+    padding: 30px;
+    height: 100%;
+
+  }
+
+  .product-search-container .back-link-a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 0;
+    text-decoration: none;
+  }
+
+  .product-search-container .back-link-a svg {
+    fill: currentColor;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+  }
+
+  .product-search-container-c .back-link-p {
+    margin: 5px;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14.99px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .product-search-container-c .catalog-title {
+    color: #4a3933;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 20px 0 0px;
+  }
+
+  .product-search-container-c .search-box {
+    background-color: var(--color-contrast-bg);
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-search-container-c .search-box p {
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    color: var(--color-text);
+    margin: 6px 0 3px;
+  }
+
+  .product-search-container-c .search-box ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style: none;
+  }
+
+  .product-search-container-c .search-box li {
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-small);
+    color: #5a4a42;
+    line-height: 1.30;
+
+  }
+
+  .product-search-container-c .extended-search-form {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .product-search-container-c input[type="text"] {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    color: var(--color-input-text);
+    background-color: var(--color-input);
+    margin: 0;
+    border: 3px solid #e67e22;
+    border-radius: 8px;
+  }
+
+  .product-search-container-c input:hover {
+    border: 3px solid #e67e22;
+  }
+
+  .product-search-container-c input[type="text"]:hover {
+    border: 3px solid #e67e22;
+  }
+
+  .product-search-container-c input[type="text"]:focus {
+    border: 3px solid #e67e22;
+    outline: none;
+  }
+
+  .product-search-container-c input[type="text"]:active {
+    border: 3px solid #e67e22;
+  }
+
+  .product-search-container-c .search-box .product-search-buttonn[type="submit"] {
+    padding: 1px 20px;
+    border-radius: 30px;
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    border: none;
+    border-radius: 10px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    font-weight: var(--font-body-bold-weight);
+    transition: background-color 0.3s ease;
+  }
+
+  .product-search-container-c .search-box .product-search-buttonn:hover {
+    background-color: rgba(58, 9, 44, 0.85);
+    color: var(--color-button-text);
+  }
+
+  .product-search-container-c .image-placeholder {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .product-search-container-c .image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .product-search-container-c .search-results-h3 {
+    color: var(--raisin-black);
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.15;
+  }
+
+  .product-search-container-c .search-results a {
+    color: var(--raisin-black);
+    text-decoration: none;
+    text-decoration: none;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 15.99px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .product-search-container-c .search-results ul li {
+    display: flex;
+  }
+
+  .product-search-container-c .search-results ul li img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .product-search-container-c .search-results ul li span {
+    color: var(--jet) !important;
+    letter-spacing: .20px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 1820px) {
+  .product-search-container {
+    flex: 1;
+    background-color: var(--gray-color);
+    padding: 5rem 22rem 8rem;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    height: 100%;
+  }
+
+  .product-search-container-c {
+    background-color: var(--color-contrast-bg);
+    padding: 70px;
+    height: 100%;
+    border-radius: 12px;
+
+  }
+
+  .product-search-container .back-link-a {
+    display: flex;
+    align-items: center;
+    color: #333;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 0;
+    text-decoration: none;
+  }
+
+  .product-search-container .back-link-a svg {
+    fill: currentColor;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-search-container-c .back-link-p {
+    margin: 5px;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 22.99px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .product-search-container-c .catalog-title {
+    color: #4a3933;
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 20px 0 0px;
+  }
+
+  .product-search-container-c .search-box {
+    background-color: var(--color-contrast-bg);
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-search-container-c .search-box p {
+    font-family: var(--font-body);
+    font-size: 22px;
+    color: var(--color-text);
+    margin: 6px 0 3px;
+  }
+
+  .product-search-container-c .search-box ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style: none;
+  }
+
+  .product-search-container-c .search-box li {
+    font-family: var(--font-body);
+    font-size: 18px;
+    color: #5a4a42;
+    line-height: 1.30;
+
+  }
+
+  .product-search-container-c .extended-search-form {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .product-search-container-c input[type="text"] {
+    padding: 1.30rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 20px;
+    color: var(--color-input-text);
+    background-color: var(--color-input);
+    margin: 0;
+    border: 3px solid #e67e22;
+    border-radius: 8px;
+  }
+
+  .product-search-container-c input:hover {
+    border: 3px solid #e67e22;
+  }
+
+  .product-search-container-c input[type="text"]:hover {
+    border: 3px solid #e67e22;
+  }
+
+  .product-search-container-c input[type="text"]:focus {
+    border: 3px solid #e67e22;
+    outline: none;
+  }
+
+  .product-search-container-c input[type="text"]:active {
+    border: 3px solid #e67e22;
+  }
+
+  .product-search-container-c .search-box .product-search-buttonn[type="submit"] {
+    padding: 1px 40px;
+    border-radius: 30px;
+    background-color: var(--color-accent);
+    color: var(--color-button-text);
+    border: none;
+    border-radius: 10px;
+    font-family: var(--font-body);
+    font-size: var(--font-size-body-base);
+    font-weight: var(--font-body-bold-weight);
+    transition: background-color 0.3s ease;
+  }
+
+  .product-search-container-c .search-box .product-search-buttonn:hover {
+    background-color: rgba(58, 9, 44, 0.85);
+    color: var(--color-button-text);
+  }
+
+  .product-search-container-c .image-placeholder {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .product-search-container-c .image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .product-search-container-c .search-results-h3 {
+    color: var(--raisin-black);
+    letter-spacing: .48px;
+    font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria, Noto Serif Light, Droid Serif, Georgia, "serif";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.15;
+  }
+
+  .product-search-container-c .search-results a {
+    color: var(--raisin-black);
+    text-decoration: none;
+    text-decoration: none;
+    letter-spacing: .1299px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 20.99px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .product-search-container-c .search-results ul li {
+    display: flex;
+  }
+
+  .product-search-container-c .search-results ul li img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-search-container-c .search-results ul li span {
+    color: var(--jet) !important;
+    letter-spacing: .20px;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 5px 10px;
+  }
+}

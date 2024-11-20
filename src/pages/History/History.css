@@ -1,0 +1,30 @@
+.historias {
+    padding: 2rem 5%;
+    background-color: #f5f5dc; /* Color de fondo suave */
+    color: #4a3933; /* Color de texto oscuro */
+}
+
+.historias h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.historia {
+    margin-bottom: 2rem; /* Espaciado entre secciones */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.historia h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.historia p {
+    font-size: 1rem;
+    line-height: 1.5em; /* Espaciado de líneas */
+    font-family: 'Georgia', serif; /* Fuente elegante */
+}
